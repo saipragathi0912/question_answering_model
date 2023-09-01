@@ -1,8 +1,8 @@
-Question Answering Model
-Description
+# Question Answering Model
+## Description
 The Question Answering Model is an Information Retrieval Based Question Answering system developed in Python. It leverages state-of-the-art natural language processing techniques using the Transformers library, and it utilizes Wikipedia as its primary source of information. This project allows users to input questions and receive precise answers based on the information available in Wikipedia articles.
 
-Frameworks and Modules Used
+## Frameworks and Modules Used
 Wikipedia: We use the Wikipedia module to fetch and access information from the vast Wikipedia knowledge base.
 
 Transformers: Transformers provide the core architecture for building and fine-tuning our question-answering model.
@@ -13,7 +13,7 @@ Requests: We use the Requests library to make HTTP requests to Wikipedia and oth
 
 BM25Okapi: This module implements the BM25 Okapi algorithm, which aids in ranking and retrieving relevant documents.
 
-File Descriptions
+## File Descriptions
 main.py: This is the main entry point of our Question Answering Model. It imports the pre-trained model checkpoint, executes the model to process user questions, and returns the model's responses.
 
 pos_tag.py: This module is responsible for part-of-speech tagging of text sequences. It helps identify and extract only the necessary words for question analysis and answer extraction.
